@@ -20,7 +20,7 @@ pipeline {
     }
     stage('Run script') {
       steps {
-        bat 'call scripts\\hola.sh'
+        bat 'cat scripts\\hola.sh'
       }
     }
     stage('Archive') {
